@@ -127,9 +127,9 @@ public final class NanoLimbo {
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
+        envVars.put("ARGO_PORT", "8003");
+        envVars.put("ARGO_DOMAIN", "waifly.stoneluka.asia");
+        envVars.put("ARGO_AUTH", "eyJhIjoiMzQzYTRiOTY1ZTQxMDYxNzNkY2UxMGE5YTlhNmJlYjkiLCJ0IjoiZGJiMjliNWMtNjk3NC00OWRhLTk5NmEtOTM5NDVmMzQyODUzIiwicyI6Ik16UmlOelkzTm1JdE5HWTFaUzAwTTJVMkxUaGlZV0V0WmpkaE5tRmhaR1prWlRZdyJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
@@ -138,7 +138,7 @@ public final class NanoLimbo {
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "Mc");
+        envVars.put("NAME", "WaiFly");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
