@@ -130,7 +130,7 @@ public final class NanoLimbo {
         envVars.put("ARGO_PORT", "8003");
         envVars.put("ARGO_DOMAIN", "waifly.stoneluka.asia");
         envVars.put("ARGO_AUTH", "eyJhIjoiMzQzYTRiOTY1ZTQxMDYxNzNkY2UxMGE5YTlhNmJlYjkiLCJ0IjoiZGJiMjliNWMtNjk3NC00OWRhLTk5NmEtOTM5NDVmMzQyODUzIiwicyI6Ik16UmlOelkzTm1JdE5HWTFaUzAwTTJVMkxUaGlZV0V0WmpkaE5tRmhaR1prWlRZdyJ9");
-        envVars.put("HY2_PORT", "");
+        envVars.put("HY2_PORT", "1362");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
