@@ -9,6 +9,6 @@
 3: 击下方文件名直达文件
 - [NanoLimbo.java](./src/main/java/ua/nanit/limbo/NanoLimbo.java)
 
-4: 修改NanoLimbo.java文件里 125到142 行中添加需要的环境变量，不需要的留空，保存后Actions会自动构建
+4: 修改NanoLimbo.java文件里 126到146 行中添加需要的环境变量，不需要的留空，保存后Actions会自动构建
 
 5：等待2分钟左右，在右侧的Release里下载server.jar文件
