@@ -46,11 +46,10 @@ jobs:
           name: NanoLimbo-artifact
 
       - name: Create Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2.0.6
         with:
           files: server.jar
           tag_name: ${{ github.ref_name }}
           name: "NanoLimbo ${{ github.ref_name }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
