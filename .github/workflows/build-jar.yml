@@ -46,10 +46,9 @@ jobs:
           name: NanoLimbo-artifact
 
       - name: Create Release
-        uses: softprops/action-gh-release@v2.0.6
+        uses: ncipollo/release-action@v1
         with:
-          files: server.jar
-          tag_name: ${{ github.ref_name }}
+          artifacts: "server.jar"
+          tag: ${{ github.ref_name }}
           name: "NanoLimbo ${{ github.ref_name }}"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
